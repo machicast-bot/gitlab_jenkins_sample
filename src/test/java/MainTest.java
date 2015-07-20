@@ -12,6 +12,6 @@ public class MainTest {
 
     @Test
     public void 一円を超える消費税は加算されること() {
-        assertThat(Main.calc(30), is(31));
+        assertThat(Main.calc(30), is(32));
     }
 }
